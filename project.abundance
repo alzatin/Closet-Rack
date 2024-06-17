@@ -8,14 +8,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718658248204,
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Curtain Rod",
             "x": 0.2638888888888889,
@@ -24,14 +16,6 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1718658256729,
-                    "ioValues": []
-                },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
@@ -100,6 +84,14 @@
                         }
                     ],
                     "selectedColorIndex": 11
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718658256729,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -127,6 +119,14 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718658248204,
+            "ioValues": []
         }
     ],
     "allConnectors": [],
