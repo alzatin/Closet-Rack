@@ -178,6 +178,31 @@
             ]
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.37896825396825395,
+            "y": 0.39275766016713093,
+            "uniqueID": 1718658691785,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718658643538
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 30
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Curtain Rod",
             "x": 0.22619047619047616,
@@ -323,31 +348,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.37896825396825395,
-            "y": 0.39275766016713093,
-            "uniqueID": 1718658691785,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718658643538
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0.75
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 30
-                }
-            ]
-        },
-        {
             "atomType": "Join",
             "name": "Assembly",
             "x": 0.5727513227513228,
@@ -361,19 +361,6 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 1718658797277
-                }
-            ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718658248204,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
                 }
             ]
         },
@@ -398,6 +385,19 @@
             "allConnectors": [],
             "unitsIndex": 0,
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718658248204,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718658829342
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -416,18 +416,18 @@
             "ap2ID": 1718658829342
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718658643538,
-            "ap2ID": 1718658691785
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 1718658691785,
             "ap2ID": 1718658829342
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718658643538,
+            "ap2ID": 1718658691785
         },
         {
             "ap1Name": "geometry",
