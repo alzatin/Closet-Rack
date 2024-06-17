@@ -464,14 +464,14 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 2
                         }
                     ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.08597883597883599,
+                    "x": 0.08002645502645503,
                     "y": 0.5013927576601671,
                     "uniqueID": 1718660049560,
                     "ioValues": [
@@ -519,13 +519,13 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 3
                         }
                     ]
                 },
                 {
                     "atomType": "Join",
-                    "name": "Fusion",
+                    "name": "Assembly",
                     "x": 0.503968253968254,
                     "y": 0.42061281337047357,
                     "uniqueID": 1718660017078,
@@ -604,7 +604,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 2
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -621,7 +621,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 3
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -752,12 +752,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
