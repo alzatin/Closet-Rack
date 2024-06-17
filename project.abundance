@@ -656,7 +656,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1718659961736,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1718660029108
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
