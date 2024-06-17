@@ -452,7 +452,7 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
+            "name": "Assembly",
             "x": 0.43073593073593075,
             "y": 0.6935933147632313,
             "uniqueID": 1718662961238,
@@ -567,7 +567,7 @@
                 },
                 {
                     "atomType": "Join",
-                    "name": "Assembly",
+                    "name": "Fusion",
                     "x": 0.503968253968254,
                     "y": 0.42061281337047357,
                     "uniqueID": 1718660017078,
@@ -679,6 +679,19 @@
                             "ioValue": 1718660029108
                         }
                     ]
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.6124338624338624,
+                    "y": 0.6545961002785515,
+                    "uniqueID": 1718664200857,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718660017078
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -730,6 +743,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1718660017078,
                     "ap2ID": 1718660029108
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1718660017078,
+                    "ap2ID": 1718664200857
                 },
                 {
                     "ap1Name": "geometry",
@@ -824,12 +844,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
