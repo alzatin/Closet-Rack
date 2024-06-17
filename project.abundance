@@ -6,7 +6,129 @@
     "uniqueID": 1718658239568,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718658248204,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Curtain Rod",
+            "x": 0.2638888888888889,
+            "y": 0.532033426183844,
+            "uniqueID": 1718658256264,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718658256729,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.19775132275132273,
+                    "y": 0.4568245125348189,
+                    "uniqueID": 1718658274955,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.3181216931216931,
+                    "y": 0.5459610027855153,
+                    "uniqueID": 1718658283839,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658274955
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.43716931216931215,
+                    "y": 0.5682451253481894,
+                    "uniqueID": 1718658304378,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658283839
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 100
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5674603174603174,
+                    "y": 0.6462395543175488,
+                    "uniqueID": 1718658360095,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658304378
+                        }
+                    ],
+                    "selectedColorIndex": 11
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658274955,
+                    "ap2ID": 1718658283839
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658283839,
+                    "ap2ID": 1718658304378
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658304378,
+                    "ap2ID": 1718658360095
+                }
+            ],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
+        }
+    ],
     "allConnectors": [],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
