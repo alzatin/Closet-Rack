@@ -398,6 +398,28 @@
                     "ioValue": 1718658829342
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Shelf Brace",
+            "x": 0.39087301587301587,
+            "y": 0.7019498607242339,
+            "uniqueID": 1718659934469,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718659934331,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         }
     ],
     "allConnectors": [
