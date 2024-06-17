@@ -13,7 +13,12 @@
             "x": 0.2638888888888889,
             "y": 0.532033426183844,
             "uniqueID": 1718658256264,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Rod Length",
+                    "ioValue": 100
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -25,7 +30,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -91,6 +96,19 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1718658256729,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1718658360095
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Rod Length",
+                    "x": 0.013333333333333334,
+                    "y": 0.7409470752089137,
+                    "uniqueID": 1718658510154,
                     "ioValues": []
                 }
             ],
@@ -115,6 +133,20 @@
                     "ap2Primary": true,
                     "ap1ID": 1718658304378,
                     "ap2ID": 1718658360095
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1718658360095,
+                    "ap2ID": 1718658256729
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1718658510154,
+                    "ap2ID": 1718658304378
                 }
             ],
             "unitsIndex": 0,
