@@ -16,7 +16,7 @@
             "ioValues": [
                 {
                     "name": "Rod Length",
-                    "ioValue": 28
+                    "ioValue": 48
                 }
             ],
             "topLevel": false,
@@ -72,7 +72,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 28
+                            "ioValue": 48
                         }
                     ]
                 },
@@ -151,14 +151,6 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718658248204,
-            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -326,7 +318,62 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 40
+                    "ioValue": 30
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718658248204,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718658691785
+                }
+            ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.36177248677248675,
+            "y": 0.2785515320334262,
+            "uniqueID": 1718658797277,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718658256264
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": -90
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5727513227513228,
+            "y": 0.36211699164345407,
+            "uniqueID": 1718658829342,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718658691785
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1718658797277
                 }
             ]
         }
@@ -336,8 +383,36 @@
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
+            "ap1ID": 1718658256264,
+            "ap2ID": 1718658797277
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1718658643538,
             "ap2ID": 1718658691785
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718658691785,
+            "ap2ID": 1718658248204
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718658691785,
+            "ap2ID": 1718658829342
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1718658797277,
+            "ap2ID": 1718658829342
         }
     ],
     "unitsIndex": 0,
