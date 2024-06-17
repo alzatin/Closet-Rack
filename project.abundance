@@ -496,13 +496,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.08002645502645503,
-                    "y": 0.5013927576601671,
+                    "x": 0.07605820105820106,
+                    "y": 0.5125348189415042,
                     "uniqueID": 1718660049560,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1.6
+                            "ioValue": 1.61
                         }
                     ]
                 },
@@ -631,12 +631,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1718659961736,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1718660029108
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
