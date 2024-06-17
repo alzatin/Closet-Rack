@@ -155,8 +155,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.36177248677248675,
-            "y": 0.2785515320334262,
+            "x": 0.3862433862433862,
+            "y": 0.1949860724233983,
             "uniqueID": 1718658797277,
             "ioValues": [
                 {
@@ -325,8 +325,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.36904761904761907,
-            "y": 0.5515320334261838,
+            "x": 0.37896825396825395,
+            "y": 0.39275766016713093,
             "uniqueID": 1718658691785,
             "ioValues": [
                 {
@@ -376,6 +376,28 @@
                     "ioValue": 1718658829342
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Shelf",
+            "x": 0.3115079365079365,
+            "y": 0.649025069637883,
+            "uniqueID": 1718659016469,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718659016655,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         }
     ],
     "allConnectors": [
