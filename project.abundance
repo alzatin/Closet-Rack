@@ -369,8 +369,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.3170995670995671,
-            "y": 0.4874651810584958,
+            "x": 0.31547619047619047,
+            "y": 0.4818941504178273,
             "uniqueID": 1718660294086,
             "ioValues": [
                 {
@@ -381,7 +381,8 @@
                     "name": "3D shape 5",
                     "ioValue": 1718658643538
                 }
-            ]
+            ],
+            "unionType": "Assembly"
         },
         {
             "atomType": "Move",
@@ -411,8 +412,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.6038359788359788,
-            "y": 0.403899721448468,
+            "x": 0.6117724867724867,
+            "y": 0.3983286908077995,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -423,7 +424,8 @@
                     "name": "3D shape 2",
                     "ioValue": 1718658797277
                 }
-            ]
+            ],
+            "unionType": "Assembly"
         },
         {
             "atomType": "Rotate",
@@ -452,9 +454,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.43073593073593075,
-            "y": 0.6935933147632313,
+            "name": "Fusion",
+            "x": 0.4920634920634921,
+            "y": 0.7298050139275767,
             "uniqueID": 1718662961238,
             "ioValues": [
                 {
@@ -465,7 +467,8 @@
                     "name": "3D shape 2",
                     "ioValue": 1718658797277
                 }
-            ]
+            ],
+            "unionType": "Fusion"
         },
         {
             "atomType": "Molecule",
@@ -538,8 +541,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.07605820105820106,
-                    "y": 0.5125348189415042,
+                    "x": 0.06944444444444445,
+                    "y": 0.5236768802228412,
                     "uniqueID": 1718660049560,
                     "ioValues": [
                         {
@@ -568,8 +571,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.503968253968254,
-                    "y": 0.42061281337047357,
+                    "x": 0.5046296296296297,
+                    "y": 0.415041782729805,
                     "uniqueID": 1718660017078,
                     "ioValues": [
                         {
@@ -584,7 +587,8 @@
                             "name": "3D shape 3",
                             "ioValue": 1718660154802
                         }
-                    ]
+                    ],
+                    "unionType": "Assembly"
                 },
                 {
                     "atomType": "Rotate",
@@ -614,8 +618,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.7023809523809524,
-                    "y": 0.415041782729805,
+                    "x": 0.705026455026455,
+                    "y": 0.43732590529247906,
                     "uniqueID": 1718660029108,
                     "ioValues": [
                         {
@@ -670,8 +674,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.6124338624338624,
-                    "y": 0.6545961002785515,
+                    "x": 0.6150793650793651,
+                    "y": 0.6434540389972144,
                     "uniqueID": 1718664200857,
                     "ioValues": [
                         {
@@ -850,6 +854,24 @@
                     "ioValue": 1718658829342
                 }
             ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.39219576719576715,
+            "y": 0.83008356545961,
+            "uniqueID": 1718774705994,
+            "ioValues": [
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1718660294086
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1718658797277
+                }
+            ],
+            "unionType": "Assembly"
         }
     ],
     "allConnectors": [
@@ -875,6 +897,13 @@
             "ap2ID": 1718662961238
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1718658797277,
+            "ap2ID": 1718774705994
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
@@ -894,6 +923,13 @@
             "ap2Primary": false,
             "ap1ID": 1718660294086,
             "ap2ID": 1718662961238
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1718660294086,
+            "ap2ID": 1718774705994
         },
         {
             "ap1Name": "geometry",
