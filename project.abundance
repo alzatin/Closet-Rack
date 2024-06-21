@@ -411,9 +411,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.6117724867724867,
-            "y": 0.3983286908077995,
+            "name": "Fusion",
+            "x": 0.6078066914498141,
+            "y": 0.4345403899721449,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -425,7 +425,7 @@
                     "ioValue": 1718658797277
                 }
             ],
-            "unionType": "Assembly"
+            "unionType": "Fusion"
         },
         {
             "atomType": "Rotate",
