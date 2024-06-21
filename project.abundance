@@ -411,7 +411,7 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
+            "name": "Assembly",
             "x": 0.6078066914498141,
             "y": 0.4345403899721449,
             "uniqueID": 1718658829342,
@@ -425,7 +425,7 @@
                     "ioValue": 1718658797277
                 }
             ],
-            "unionType": "Fusion"
+            "unionType": "Assembly"
         },
         {
             "atomType": "Rotate",
@@ -667,6 +667,23 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "T-Connector",
+                    "x": 0.8243494423791822,
+                    "y": 0.4818941504178273,
+                    "uniqueID": 1718994196783,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718660029108
+                        }
+                    ],
+                    "tags": [
+                        "T-Connector"
+                    ],
+                    "cutTag": false
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.98,
@@ -675,7 +692,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1718660029108
+                            "ioValue": 1718994196783
                         }
                     ]
                 }
@@ -753,10 +770,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1718660029108,
-                    "ap2ID": 1718659961736
+                    "ap2ID": 1718994196783
                 },
                 {
                     "ap1Name": "geometry",
@@ -764,6 +781,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1718660154802,
                     "ap2ID": 1718660017078
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1718994196783,
+                    "ap2ID": 1718659961736
                 }
             ],
             "unitsIndex": 0,
@@ -829,6 +853,21 @@
                 }
             ],
             "unionType": "Assembly"
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.7156133828996283,
+            "y": 0.7298050139275767,
+            "uniqueID": 1718994225951,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718658829342
+                }
+            ],
+            "tag": "T-Connector",
+            "tagIndex": 1
         },
         {
             "atomType": "Output",
@@ -914,6 +953,13 @@
             "ap2Primary": false,
             "ap1ID": 1718658829342,
             "ap2ID": 1718658248204
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718658829342,
+            "ap2ID": 1718994225951
         },
         {
             "ap1Name": "geometry",
