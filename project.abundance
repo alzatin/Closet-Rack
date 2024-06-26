@@ -27,13 +27,14 @@
             ],
             "allConnectors": [],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         },
         {
             "atomType": "Molecule",
             "name": "Curtain Rod",
-            "x": 0.2328042328042328,
-            "y": 0.2479108635097493,
+            "x": 0.23412698412698413,
+            "y": 0.233983286908078,
             "uniqueID": 1718658256264,
             "ioValues": [
                 {
@@ -172,7 +173,8 @@
                 }
             ],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": []
         },
         {
             "atomType": "Rotate",
@@ -219,7 +221,8 @@
             ],
             "allConnectors": [],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         },
         {
             "atomType": "Molecule",
@@ -364,7 +367,8 @@
                 }
             ],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": []
         },
         {
             "atomType": "Join",
@@ -995,7 +999,8 @@
                         }
                     ],
                     "unitsIndex": 0,
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Rotate",
@@ -1158,7 +1163,8 @@
                 }
             ],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": []
         },
         {
             "atomType": "Join",
@@ -1352,5 +1358,6 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
+    "compiledBom": [],
     "filetypeVersion": 1
 }
