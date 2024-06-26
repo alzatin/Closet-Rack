@@ -1524,19 +1524,6 @@
                     "closedSelection": 0
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1718659934331,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1719443427882
-                        }
-                    ]
-                },
-                {
                     "atomType": "Join",
                     "name": "Assembly",
                     "x": 0.5390211640211641,
@@ -1549,6 +1536,19 @@
                         }
                     ],
                     "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718659934331,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1719443427882
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
