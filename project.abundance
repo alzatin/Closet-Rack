@@ -211,14 +211,6 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1718659016655,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.21230158730158732,
@@ -230,6 +222,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718659016655,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -422,7 +422,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 25
+                    "ioValue": 15
                 }
             ]
         },
