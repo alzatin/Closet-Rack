@@ -461,8 +461,8 @@
                 {
                     "atomType": "Equation",
                     "name": "X/2",
-                    "x": 0.2916666666666667,
-                    "y": 0.6406685236768802,
+                    "x": 0.292989417989418,
+                    "y": 0.6573816155988859,
                     "uniqueID": 1719442997859,
                     "ioValues": [
                         {
@@ -566,44 +566,6 @@
                             "ioValue": 1719443113352
                         }
                     ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.36177248677248675,
-                    "y": 0.83008356545961,
-                    "uniqueID": 1719591918457,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 1
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.4847883597883598,
-                    "y": 0.8384401114206128,
-                    "uniqueID": 1719591926206,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1719591918457
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -669,13 +631,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1719443039144,
                     "ap2ID": 1719443113352
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1719591918457,
-                    "ap2ID": 1719591926206
                 }
             ],
             "unitsIndex": 0,
@@ -1463,8 +1418,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf Brace",
-            "x": 0.41137566137566134,
-            "y": 0.8969359331476323,
+            "x": 0.4100529100529101,
+            "y": 0.8802228412256267,
             "uniqueID": 1718659934469,
             "ioValues": [],
             "topLevel": false,
@@ -1503,7 +1458,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -5
+                            "ioValue": -2
                         }
                     ]
                 },
