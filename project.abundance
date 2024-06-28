@@ -1619,12 +1619,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
