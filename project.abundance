@@ -608,19 +608,6 @@
                         "Shelf"
                     ],
                     "cutTag": false
-                },
-                {
-                    "atomType": "Export",
-                    "name": "Export",
-                    "x": 0.5819592628516004,
-                    "y": 0.7938718662952646,
-                    "uniqueID": 1719603009982,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1719442984881
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -672,13 +659,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1719442984881,
                     "ap2ID": 1719443024441
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1719442984881,
-                    "ap2ID": 1719603009982
                 },
                 {
                     "ap1Name": "geometry",
