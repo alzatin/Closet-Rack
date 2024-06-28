@@ -1721,6 +1721,14 @@
             "tagIndex": 2
         },
         {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718658248204,
+            "ioValues": []
+        },
+        {
             "atomType": "Export",
             "name": "Export",
             "x": 0.82541222114452,
@@ -1732,14 +1740,6 @@
                     "ioValue": 1719601303748
                 }
             ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718658248204,
-            "ioValues": []
         }
     ],
     "allConnectors": [
