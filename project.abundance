@@ -440,49 +440,6 @@
             "unionType": "Assembly"
         },
         {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.5496031746031745,
-            "y": 0.5821727019498607,
-            "uniqueID": 1719592453505,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 1719592219581
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1718659016469
-                }
-            ],
-            "unionType": "Assembly"
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.1774891774891775,
-            "y": 0.796657381615599,
-            "uniqueID": 1718660230078,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718659961428
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Shelf",
             "x": 0.4100529100529101,
@@ -491,7 +448,7 @@
             "ioValues": [
                 {
                     "name": "Lenth",
-                    "ioValue": 40
+                    "ioValue": 30
                 }
             ],
             "topLevel": false,
@@ -518,7 +475,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 40
+                            "ioValue": 30
                         },
                         {
                             "name": "y length",
@@ -561,7 +518,7 @@
                     "ioValues": [
                         {
                             "name": "X",
-                            "ioValue": 40
+                            "ioValue": 30
                         }
                     ],
                     "currentEquation": "X/-2"
@@ -579,7 +536,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -20
+                            "ioValue": -15
                         },
                         {
                             "name": "yDist",
@@ -704,6 +661,49 @@
             "unitsIndex": 0,
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5496031746031745,
+            "y": 0.5821727019498607,
+            "uniqueID": 1719592453505,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1719592219581
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1718659016469
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.1774891774891775,
+            "y": 0.796657381615599,
+            "uniqueID": 1718660230078,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718659961428
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -1767,20 +1767,6 @@
             "ap2ID": 1718994225951
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719592453505,
-            "ap2ID": 1719443156257
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718660230078,
-            "ap2ID": 1718660317505
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
@@ -1793,6 +1779,20 @@
             "ap2Primary": false,
             "ap1ID": 1718659016469,
             "ap2ID": 1719592453505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719592453505,
+            "ap2ID": 1719443156257
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718660230078,
+            "ap2ID": 1718660317505
         },
         {
             "ap1Name": "Geometry",
