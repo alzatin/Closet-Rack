@@ -156,8 +156,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.39153439153439157,
-            "y": 0.16991643454039,
+            "x": 0.5562169312169313,
+            "y": 0.09192200557103064,
             "uniqueID": 1718658797277,
             "ioValues": [
                 {
@@ -345,8 +345,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4695767195767196,
-            "y": 0.42061281337047357,
+            "x": 0.4880952380952381,
+            "y": 0.2841225626740947,
             "uniqueID": 1718658691785,
             "ioValues": [
                 {
@@ -417,8 +417,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.40939153439153436,
-            "y": 0.7019498607242339,
+            "x": 0.41269841269841273,
+            "y": 0.7103064066852367,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -459,20 +459,6 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "X/2",
-                    "x": 0.292989417989418,
-                    "y": 0.6573816155988859,
-                    "uniqueID": 1719442997859,
-                    "ioValues": [
-                        {
-                            "name": "X",
-                            "ioValue": 40
-                        }
-                    ],
-                    "currentEquation": "X/2"
-                },
-                {
                     "atomType": "Input",
                     "name": "Lenth",
                     "x": 0.013333333333333334,
@@ -499,10 +485,24 @@
                     "unionType": "Fusion"
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "X/-2",
+                    "x": 0.292989417989418,
+                    "y": 0.6573816155988859,
+                    "uniqueID": 1719442997859,
+                    "ioValues": [
+                        {
+                            "name": "X",
+                            "ioValue": 40
+                        }
+                    ],
+                    "currentEquation": "X/-2"
+                },
+                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5145502645502645,
-                    "y": 0.6295264623955432,
+                    "x": 0.5198412698412698,
+                    "y": 0.6016713091922006,
                     "uniqueID": 1719442984881,
                     "ioValues": [
                         {
@@ -511,7 +511,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 20
+                            "ioValue": -20
                         },
                         {
                             "name": "yDist",
@@ -584,13 +584,6 @@
                     "ap2ID": 1719442984881
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1719442997859,
-                    "ap2ID": 1719442984881
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
@@ -610,6 +603,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1719443024441,
                     "ap2ID": 1719443039144
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1719442997859,
+                    "ap2ID": 1719442984881
                 },
                 {
                     "ap1Name": "geometry",
@@ -1398,24 +1398,6 @@
             ]
         },
         {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.5456349206349206,
-            "y": 0.807799442896936,
-            "uniqueID": 1719443559921,
-            "ioValues": [
-                {
-                    "name": "3D shape 5",
-                    "ioValue": 1718659016469
-                },
-                {
-                    "name": "3D shape 6",
-                    "ioValue": 1718659934469
-                }
-            ],
-            "unionType": "Assembly"
-        },
-        {
             "atomType": "Molecule",
             "name": "Shelf Brace",
             "x": 0.4100529100529101,
@@ -1597,6 +1579,24 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Join",
+            "name": "Fusion",
+            "x": 0.5376984126984127,
+            "y": 0.8105849582172702,
+            "uniqueID": 1719443559921,
+            "ioValues": [
+                {
+                    "name": "3D shape 5",
+                    "ioValue": 1718659016469
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 1718659934469
+                }
+            ],
+            "unionType": "Fusion"
         },
         {
             "atomType": "ExtractTag",
