@@ -442,8 +442,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.41203703703703703,
-            "y": 0.67966573816156,
+            "x": 0.40931134820562565,
+            "y": 0.6713091922005571,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -526,8 +526,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5198412698412698,
-                    "y": 0.6016713091922006,
+                    "x": 0.5179437439379243,
+                    "y": 0.6239554317548747,
                     "uniqueID": 1719442984881,
                     "ioValues": [
                         {
@@ -608,6 +608,19 @@
                         "Shelf"
                     ],
                     "cutTag": false
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.5819592628516004,
+                    "y": 0.7938718662952646,
+                    "uniqueID": 1719603009982,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719442984881
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -659,6 +672,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1719442984881,
                     "ap2ID": 1719443024441
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719442984881,
+                    "ap2ID": 1719603009982
                 },
                 {
                     "ap1Name": "geometry",
