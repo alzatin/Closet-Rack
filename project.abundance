@@ -442,8 +442,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.4100529100529101,
-            "y": 0.6852367688022285,
+            "x": 0.41203703703703703,
+            "y": 0.67966573816156,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -588,9 +588,26 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1719443113352
+                            "ioValue": 1719601283058
                         }
                     ]
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Shelf",
+                    "x": 0.863095238095238,
+                    "y": 0.7827298050139275,
+                    "uniqueID": 1719601283058,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1719443113352
+                        }
+                    ],
+                    "tags": [
+                        "Shelf"
+                    ],
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -645,10 +662,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1719443113352,
-                    "ap2ID": 1718659016655
+                    "ap2ID": 1719601283058
                 },
                 {
                     "ap1Name": "geometry",
@@ -656,6 +673,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1719443039144,
                     "ap2ID": 1719443113352
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719601283058,
+                    "ap2ID": 1718659016655
                 }
             ],
             "unitsIndex": 0,
@@ -1477,8 +1501,8 @@
                     "ioValue": 1718659016469
                 },
                 {
-                    "name": "3D shape 6",
-                    "ioValue": 1718659934469
+                    "name": "3D shape 7",
+                    "ioValue": 1718658797277
                 }
             ],
             "unionType": "Assembly"
@@ -1687,12 +1711,30 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
+            "ioValues": []
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6216931216931216,
+            "y": 0.8551532033426184,
+            "uniqueID": 1719601303748,
             "ioValues": [
                 {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
+                    "name": "geometry",
+                    "ioValue": 1719443559921
                 }
-            ]
+            ],
+            "tag": "Shelf",
+            "tagIndex": 2
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8234126984126985,
+            "y": 0.6880222841225626,
+            "uniqueID": 1719601335389,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1737,6 +1779,13 @@
             "ap2Primary": false,
             "ap1ID": 1718658797277,
             "ap2ID": 1718658829342
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 7",
+            "ap2Primary": false,
+            "ap1ID": 1718658797277,
+            "ap2ID": 1719443559921
         },
         {
             "ap1Name": "geometry",
@@ -1816,11 +1865,18 @@
             "ap2ID": 1718660294086
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 6",
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719443559921,
+            "ap2ID": 1719601303748
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 1718659934469,
-            "ap2ID": 1719443559921
+            "ap1ID": 1718994225951,
+            "ap2ID": 1719601335389
         }
     ],
     "unitsIndex": 0,
