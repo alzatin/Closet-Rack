@@ -174,8 +174,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4398148148148148,
-            "y": 0.2395543175487465,
+            "x": 0.4407814407814408,
+            "y": 0.25078369905956116,
             "uniqueID": 1718658691785,
             "ioValues": [
                 {
@@ -420,8 +420,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.6805555555555555,
-            "y": 0.3008356545961003,
+            "x": 0.6800976800976801,
+            "y": 0.2946708463949843,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -431,10 +431,6 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 1718658797277
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1719443156257
                 }
             ],
             "unionType": "Assembly"
@@ -1693,8 +1689,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7156133828996283,
-            "y": 0.7298050139275767,
+            "x": 0.833943833943834,
+            "y": 0.64576802507837,
             "uniqueID": 1718994225951,
             "ioValues": [
                 {
@@ -1726,7 +1722,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718658829342
+                }
+            ]
         },
         {
             "atomType": "Export",
@@ -1854,13 +1855,6 @@
             "ap2Primary": true,
             "ap1ID": 1718659961428,
             "ap2ID": 1718660230078
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1719443156257,
-            "ap2ID": 1718658829342
         },
         {
             "ap1Name": "geometry",
