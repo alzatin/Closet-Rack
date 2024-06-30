@@ -420,8 +420,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.7533577533577533,
-            "y": 0.31974921630094044,
+            "x": 0.7521367521367521,
+            "y": 0.32601880877742945,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -431,6 +431,10 @@
                 {
                     "name": "3D shape 5",
                     "ioValue": 1718658797277
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 1719443156257
                 }
             ],
             "unionType": "Assembly"
@@ -1855,6 +1859,13 @@
             "ap2Primary": true,
             "ap1ID": 1718659961428,
             "ap2ID": 1718660230078
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 6",
+            "ap2Primary": false,
+            "ap1ID": 1719443156257,
+            "ap2ID": 1718658829342
         },
         {
             "ap1Name": "geometry",
