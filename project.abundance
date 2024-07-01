@@ -199,8 +199,8 @@
         {
             "atomType": "Molecule",
             "name": "Curtain Rod",
-            "x": 0.10500610500610501,
-            "y": 0.4796238244514106,
+            "x": 0.09768009768009768,
+            "y": 0.48275862068965514,
             "uniqueID": 1718658643538,
             "ioValues": [
                 {
@@ -707,8 +707,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.1774891774891775,
-            "y": 0.796657381615599,
+            "x": 0.16605616605616605,
+            "y": 0.8495297805642633,
             "uniqueID": 1718660230078,
             "ioValues": [
                 {
@@ -872,8 +872,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.30423280423280424,
-                    "y": 0.7325905292479109,
+                    "x": 0.3076923076923077,
+                    "y": 0.7241379310344828,
                     "uniqueID": 1718660140075,
                     "ioValues": [
                         {
@@ -893,20 +893,6 @@
                             "ioValue": 1
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.8351648351648351,
-                    "y": 0.27899686520376177,
-                    "uniqueID": 1718660029108,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1719767850153
-                        }
-                    ],
-                    "selectedColorIndex": 19
                 },
                 {
                     "atomType": "Rotate",
@@ -942,7 +928,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1718660029108
+                            "ioValue": 1719767850153
                         }
                     ],
                     "tags": [
@@ -1282,8 +1268,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.6483516483516483,
-                    "y": 0.37931034482758624,
+                    "x": 0.6715506715506716,
+                    "y": 0.3824451410658307,
                     "uniqueID": 1719767850153,
                     "ioValues": [
                         {
@@ -1382,13 +1368,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1718660029108,
-                    "ap2ID": 1718994196783
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1718994742013,
                     "ap2ID": 1718994745229
                 },
@@ -1432,7 +1411,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1719767850153,
-                    "ap2ID": 1718660029108
+                    "ap2ID": 1718994196783
                 }
             ],
             "unitsIndex": 0,
