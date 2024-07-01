@@ -705,31 +705,6 @@
             "unionType": "Assembly"
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.1774891774891775,
-            "y": 0.796657381615599,
-            "uniqueID": 1718660230078,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718659961428
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "T-Joint",
             "x": 0.05128205128205128,
@@ -1452,7 +1427,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718660230078
+                    "ioValue": 1718659961428
                 },
                 {
                     "name": "xDist",
@@ -1826,18 +1801,11 @@
             "ap2ID": 1719443156257
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718660230078,
-            "ap2ID": 1718660317505
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718659961428,
-            "ap2ID": 1718660230078
+            "ap2ID": 1718660317505
         },
         {
             "ap1Name": "geometry",
