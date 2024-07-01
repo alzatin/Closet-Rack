@@ -376,7 +376,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1719592242332
+                    "ioValue": 1718660294086
                 },
                 {
                     "name": "xDist",
@@ -393,35 +393,10 @@
             ]
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.40608465608465605,
-            "y": 0.5013927576601671,
-            "uniqueID": 1719592242332,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718660294086
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 180
-                }
-            ]
-        },
-        {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.7118437118437119,
-            "y": 0.3040752351097179,
+            "x": 0.7545787545787546,
+            "y": 0.329153605015674,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -1647,8 +1622,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7765567765567766,
-            "y": 0.6520376175548589,
+            "x": 0.8681318681318682,
+            "y": 0.677115987460815,
             "uniqueID": 1718994225951,
             "ioValues": [
                 {
@@ -1690,8 +1665,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.82541222114452,
-            "y": 0.8495821727019498,
+            "x": 0.8083028083028082,
+            "y": 0.8463949843260188,
             "uniqueID": 1719601335389,
             "ioValues": [
                 {
@@ -1721,7 +1696,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718660294086,
-            "ap2ID": 1719592242332
+            "ap2ID": 1719592219581
         },
         {
             "ap1Name": "geometry",
@@ -1757,13 +1732,6 @@
             "ap2Primary": false,
             "ap1ID": 1719592219581,
             "ap2ID": 1719592453505
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719592242332,
-            "ap2ID": 1719592219581
         },
         {
             "ap1Name": "geometry",
