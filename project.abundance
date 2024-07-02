@@ -30,7 +30,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1.31
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -219,7 +219,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1.31
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -806,7 +806,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1.61
+                            "ioValue": 1.81
                         }
                     ]
                 },
@@ -830,8 +830,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.5198412698412698,
-                    "y": 0.37604456824512533,
+                    "x": 0.5178571428571428,
+                    "y": 0.3899721448467966,
                     "uniqueID": 1718660017078,
                     "ioValues": [
                         {
@@ -1726,7 +1726,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718658829342
+                }
+            ]
         },
         {
             "atomType": "Export",
