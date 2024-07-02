@@ -205,7 +205,7 @@
             "ioValues": [
                 {
                     "name": "Rod Length",
-                    "ioValue": 31
+                    "ioValue": 30
                 }
             ],
             "topLevel": false,
@@ -261,7 +261,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 31
+                            "ioValue": 30
                         }
                     ]
                 },
