@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1718658239568,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Closet Width",
+            "ioValue": 30
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -479,7 +484,7 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.4197324414715719,
+            "x": 0.4312169312169312,
             "y": 0.6935933147632313,
             "uniqueID": 1718659016469,
             "ioValues": [
@@ -1773,8 +1778,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7824074074074073,
-            "y": 0.6267409470752089,
+            "x": 0.7870370370370371,
+            "y": 0.5403899721448467,
             "uniqueID": 1718994225951,
             "ioValues": [
                 {
@@ -1782,14 +1787,14 @@
                     "ioValue": 1718658829342
                 }
             ],
-            "tag": "Shelf",
+            "tag": "T-Connector",
             "tagIndex": 1
         },
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6957671957671957,
-            "y": 0.8356545961002785,
+            "x": 0.748015873015873,
+            "y": 0.7437325905292479,
             "uniqueID": 1719601303748,
             "ioValues": [
                 {
@@ -1850,6 +1855,14 @@
                     "ioValue": 15
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Closet Width",
+            "x": 0.013333333333333334,
+            "y": 0.36768802228412256,
+            "uniqueID": 1719950063265,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1992,6 +2005,13 @@
             "ap2Primary": false,
             "ap1ID": 1719947331671,
             "ap2ID": 1718658829342
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Rod Length",
+            "ap2Primary": false,
+            "ap1ID": 1719950063265,
+            "ap2ID": 1718658643538
         }
     ],
     "unitsIndex": 0,
