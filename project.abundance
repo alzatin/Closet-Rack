@@ -1700,7 +1700,7 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7771164021164021,
+            "x": 0.7824074074074073,
             "y": 0.6267409470752089,
             "uniqueID": 1718994225951,
             "ioValues": [
@@ -1709,7 +1709,7 @@
                     "ioValue": 1718658829342
                 }
             ],
-            "tag": "T-Connector",
+            "tag": "Shelf",
             "tagIndex": 1
         },
         {
