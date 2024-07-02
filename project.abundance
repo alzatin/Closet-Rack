@@ -296,9 +296,28 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1718658360095
+                            "ioValue": 1719949529533
                         }
                     ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.744047619047619,
+                    "y": 0.5988857938718662,
+                    "uniqueID": 1719949529533,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658360095
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "Curtain Rod",
+                        "numberNeeded": 1,
+                        "costUSD": 10,
+                        "source": "www.homedepot.com/curtainrod"
+                    }
                 }
             ],
             "allConnectors": [
@@ -332,15 +351,29 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658360095,
+                    "ap2ID": 1719949529533
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1718658360095,
+                    "ap1ID": 1719949529533,
                     "ap2ID": 1718658256729
                 }
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "Curtain Rod",
+                    "numberNeeded": 1,
+                    "costUSD": 10,
+                    "source": "www.homedepot.com/curtainrod"
+                }
+            ]
         },
         {
             "atomType": "Rotate",
@@ -1923,6 +1956,13 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Curtain Rod",
+            "numberNeeded": 3,
+            "costUSD": 30,
+            "source": "www.homedepot.com/curtainrod"
+        }
+    ],
     "filetypeVersion": 1
 }
