@@ -2,7 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|1.5 Inch Screw|18|$1.80||
 |Curtain Rod|3|$30.00||
-|Total: |3|$30.00| |
+|Total: |21|$31.80| |
 
- 3xCOG MSRP: $90.00
+ 3xCOG MSRP: $95.40

@@ -453,8 +453,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.6805555555555555,
-            "y": 0.3008356545961003,
+            "x": 0.6832010582010583,
+            "y": 0.2924791086350975,
             "uniqueID": 1718658829342,
             "ioValues": [
                 {
@@ -1077,8 +1077,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.4947089947089947,
-                            "y": 0.4596100278551532,
+                            "x": 0.44907407407407407,
+                            "y": 0.3147632311977716,
                             "uniqueID": 1718994599373,
                             "ioValues": [
                                 {
@@ -1140,7 +1140,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1718994599373
+                                    "ioValue": 1719949916921
                                 },
                                 {
                                     "name": "xDist",
@@ -1193,6 +1193,25 @@
                                     "ioValue": 1718994665712
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Add-BOM-Tag",
+                            "name": "Add BOM Tag",
+                            "x": 0.5205026455026455,
+                            "y": 0.44568245125348194,
+                            "uniqueID": 1719949916921,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1718994599373
+                                }
+                            ],
+                            "BOMitem": {
+                                "BOMitemName": "1.5 Inch Screw",
+                                "numberNeeded": 1,
+                                "costUSD": 0.1,
+                                "source": "www.example.com"
+                            }
                         }
                     ],
                     "allConnectors": [
@@ -1236,7 +1255,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 1718994599373,
-                            "ap2ID": 1718994616212
+                            "ap2ID": 1719949916921
                         },
                         {
                             "ap1Name": "geometry",
@@ -1272,11 +1291,25 @@
                             "ap2Primary": false,
                             "ap1ID": 1718994647564,
                             "ap2ID": 1718994665712
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1719949916921,
+                            "ap2ID": 1718994616212
                         }
                     ],
                     "unitsIndex": 0,
                     "fileTypeVersion": 1,
-                    "compiledBom": []
+                    "compiledBom": [
+                        {
+                            "BOMitemName": "1.5 Inch Screw",
+                            "numberNeeded": 2,
+                            "costUSD": 0.2,
+                            "source": "www.example.com"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -1495,7 +1528,14 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "1.5 Inch Screw",
+                    "numberNeeded": 6,
+                    "costUSD": 0.6,
+                    "source": "www.example.com"
+                }
+            ]
         },
         {
             "atomType": "Move",
@@ -1957,6 +1997,12 @@
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [
+        {
+            "BOMitemName": "1.5 Inch Screw",
+            "numberNeeded": 18,
+            "costUSD": 1.8000000000000005,
+            "source": "www.example.com"
+        },
         {
             "BOMitemName": "Curtain Rod",
             "numberNeeded": 3,
