@@ -1813,19 +1813,6 @@
             ]
         },
         {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8558201058201057,
-            "y": 0.8412256267409471,
-            "uniqueID": 1719601335389,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719601303748
-                }
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.5826719576719577,
@@ -1993,13 +1980,6 @@
             "ap2Primary": false,
             "ap1ID": 1718660317505,
             "ap2ID": 1718660294086
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1719601303748,
-            "ap2ID": 1719601335389
         },
         {
             "ap1Name": "geometry",
