@@ -482,8 +482,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.4755291005291006,
-            "y": 0.6935933147632313,
+            "x": 0.37214137214137216,
+            "y": 0.6291793313069909,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -728,8 +728,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5727513227513228,
-            "y": 0.6406685236768802,
+            "x": 0.4864864864864865,
+            "y": 0.5987841945288753,
             "uniqueID": 1719592453505,
             "ioValues": [
                 {
@@ -1787,8 +1787,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7387566137566137,
-            "y": 0.7465181058495821,
+            "x": 0.6985446985446986,
+            "y": 0.7416413373860182,
             "uniqueID": 1719601303748,
             "ioValues": [
                 {
@@ -1852,6 +1852,74 @@
             "y": 0.8913649025069639,
             "uniqueID": 1720475746651,
             "ioValues": []
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7848232848232849,
+            "y": 0.8389057750759878,
+            "uniqueID": 1720476109138,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718658829342
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5966735966735967,
+            "y": 0.7537993920972644,
+            "uniqueID": 1720476166437,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719592453505
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.058212058212058215,
+            "y": 0.6200607902735562,
+            "uniqueID": 1720476205199,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.19022869022869024,
+            "y": 0.3586626139817629,
+            "uniqueID": 1720476209860,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -1940,6 +2008,13 @@
             "ap2ID": 1719601303748
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718658829342,
+            "ap2ID": 1720476109138
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -1952,6 +2027,13 @@
             "ap2Primary": true,
             "ap1ID": 1719592453505,
             "ap2ID": 1719443156257
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1719592453505,
+            "ap2ID": 1720476166437
         },
         {
             "ap1Name": "geometry",
@@ -1994,7 +2076,8 @@
             "ap2Primary": false,
             "ap1ID": 1719950063265,
             "ap2ID": 1718658643538
-        }
+        },
+        null
     ],
     "fileTypeVersion": 1,
     "compiledBom": [
