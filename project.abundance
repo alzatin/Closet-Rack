@@ -1912,6 +1912,45 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.4458874458874459,
+            "y": 0.7598784194528875,
+            "uniqueID": 1720541882768,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718660317505
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5,
+            "y": 0.851063829787234,
+            "uniqueID": 1720541891114,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -2054,6 +2093,13 @@
             "ap2Primary": false,
             "ap1ID": 1718660317505,
             "ap2ID": 1718660294086
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718660317505,
+            "ap2ID": 1720541882768
         },
         {
             "ap1Name": "geometry",
