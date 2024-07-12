@@ -203,8 +203,8 @@
         {
             "atomType": "Molecule",
             "name": "Curtain Rod",
-            "x": 0.18388195232690127,
-            "y": 0.4194528875379939,
+            "x": 0.15664018161180476,
+            "y": 0.3252279635258359,
             "uniqueID": 1718658643538,
             "ioValues": [
                 {
@@ -1727,6 +1727,196 @@
                 }
             ],
             "unionType": "Assembly"
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Curtain Rod",
+            "x": 0.1906923950056754,
+            "y": 0.5258358662613982,
+            "uniqueID": 1720801938848,
+            "ioValues": [
+                {
+                    "name": "Rod Length",
+                    "ioValue": 30
+                },
+                {
+                    "name": "Closet Width",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.2003968253968254,
+                    "y": 0.44011142061281333,
+                    "uniqueID": 1718658274955,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 1.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.3181216931216931,
+                    "y": 0.46239554317548753,
+                    "uniqueID": 1718658283839,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658274955
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.43716931216931215,
+                    "y": 0.5682451253481894,
+                    "uniqueID": 1718658304378,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658283839
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Rod Length",
+                    "x": 0.013333333333333334,
+                    "y": 0.7409470752089137,
+                    "uniqueID": 1718658510154,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5674603174603174,
+                    "y": 0.6462395543175488,
+                    "uniqueID": 1718658360095,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658304378
+                        }
+                    ],
+                    "selectedColorIndex": 11
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718658256729,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1719949529533
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.744047619047619,
+                    "y": 0.5988857938718662,
+                    "uniqueID": 1719949529533,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658360095
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "Curtain Rod",
+                        "numberNeeded": 1,
+                        "costUSD": 10,
+                        "source": "www.homedepot.com/curtainrod"
+                    }
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Closet Width",
+                    "x": 0.013333333333333334,
+                    "y": 0.36768802228412256,
+                    "uniqueID": 1720801938645,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658274955,
+                    "ap2ID": 1718658283839
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658283839,
+                    "ap2ID": 1718658304378
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658304378,
+                    "ap2ID": 1718658360095
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1718658510154,
+                    "ap2ID": 1718658304378
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718658360095,
+                    "ap2ID": 1719949529533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1719949529533,
+                    "ap2ID": 1718658256729
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": [
+                {
+                    "BOMitemName": "Curtain Rod",
+                    "numberNeeded": 1,
+                    "costUSD": 10,
+                    "source": "www.homedepot.com/curtainrod"
+                }
+            ]
         }
     ],
     "allConnectors": [
