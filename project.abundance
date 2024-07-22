@@ -309,32 +309,6 @@
             ]
         },
         {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.6832010582010583,
-            "y": 0.2924791086350975,
-            "uniqueID": 1718658829342,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 1718658691785
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1718658797277
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1719443156257
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 1719947331671
-                }
-            ],
-            "unionType": "Assembly"
-        },
-        {
             "atomType": "Molecule",
             "name": "Shelf",
             "x": 0.37214137214137216,
@@ -1443,47 +1417,12 @@
             ]
         },
         {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.7870370370370371,
-            "y": 0.5403899721448467,
-            "uniqueID": 1718994225951,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718658829342
-                }
-            ],
-            "tag": "Shelf",
-            "tagIndex": 1
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.6985446985446986,
-            "y": 0.7416413373860182,
-            "uniqueID": 1719601303748,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718658829342
-                }
-            ],
-            "tag": "T-Connector",
-            "tagIndex": 2
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718658248204,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718658829342
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
@@ -1517,19 +1456,6 @@
             "y": 0.36768802228412256,
             "uniqueID": 1719950063265,
             "ioValues": []
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.843035343035343,
-            "y": 0.8085106382978723,
-            "uniqueID": 1720476109138,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718658829342
-                }
-            ]
         },
         {
             "atomType": "Circle",
@@ -1779,13 +1705,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1718658691785,
-            "ap2ID": 1718658829342
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718658691785,
@@ -1800,13 +1719,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1718658797277,
-            "ap2ID": 1718658829342
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 1719592219581,
@@ -1818,34 +1730,6 @@
             "ap2Primary": true,
             "ap1ID": 1719592242332,
             "ap2ID": 1719592219581
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718658829342,
-            "ap2ID": 1718658248204
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718658829342,
-            "ap2ID": 1718994225951
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718658829342,
-            "ap2ID": 1719601303748
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718658829342,
-            "ap2ID": 1720476109138
         },
         {
             "ap1Name": "Geometry",
@@ -1886,13 +1770,6 @@
             "ap1Name": "geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
-            "ap1ID": 1719443156257,
-            "ap2ID": 1718658829342
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
             "ap1ID": 1718660317505,
             "ap2ID": 1718660294086
         },
@@ -1902,13 +1779,6 @@
             "ap2Primary": false,
             "ap1ID": 1718660317505,
             "ap2ID": 1720541882768
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 1719947331671,
-            "ap2ID": 1718658829342
         },
         {
             "ap1Name": "number or geometry",
