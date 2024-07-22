@@ -3,7 +3,7 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |1.5 Inch Screw|18|$1.80||
-|Curtain Rod|1|$10.00||
-|Total: |19|$11.80| |
+|Curtain Rod|3|$30.00||
+|Total: |21|$31.80| |
 
- 3xCOG MSRP: $35.40
+ 3xCOG MSRP: $95.40
