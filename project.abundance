@@ -1,6 +1,6 @@
 {
     "atomType": "Molecule",
-    "name": "Closet Rack",
+    "name": "Closet-Rack",
     "x": 0,
     "y": 0,
     "uniqueID": 1718658239568,
@@ -1823,8 +1823,24 @@
                 {
                     "name": "geometry",
                     "ioValue": 1719601303748
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
                 }
-            ]
+            ],
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
         },
         {
             "atomType": "Move",
